@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ColorGuessr</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="bod">
+  <p id="heading">
+    ColorGuessr
+  </p>
+  <canvas id="myCanvas"></canvas>
+    <div>
+      <p id="photocreds">
+        Photo by 
+        <a id="authorname" href=""></a> 
+        on 
+        <a href="https://www.unsplash.com">Unsplash</a>
+      </p>
+  </div>
+    <label id="colorlabel" for="colorpicker">Color Picker:</label> <!-- Color Picker -->
+    <input type="color" id="colorpicker" value="#0000ff">
+    <button id="confirmGuess" onClick="guessed();">Confirm Guess</button>
+  </p>
+
+
+<!-- Pop-up -->
+<div class="information-modal" id="information-modal">
+  
+</div>
+<div class="post-guess-modal" id="post-guess-modal">
+  <div class="post-guess-modal-content">
+    <div id="close-modal"> + </div>
+    <!-- What is needed in modal:
+        - Actual and Guessed Color side by side (divs)
+        - Text (your guess, rgb, actual guess, rgb, score)
+    -->
+
+    <div class="color-boxes"> 
+      
+      <div id="guessedColor"></div>
+      
+      <div id="actualColor"></div>
+      
+    </div>
+    
+    <div class="scoreInfo">
+      
+      <div id="playerGuessText"></div>
+    
+      <div id="actualGuessText"></div>
+    
+      <div id="scoreText"></div>
+    
+    </div>
+
+
+    
+  </div>
+</div>
+
+</body>
+
+</html>

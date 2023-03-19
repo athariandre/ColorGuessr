@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  label{
+    color: white;
+  }
+  #bod{
+    background-color: black;
+  }
+  #heading{
+    font-size: 36px;
+    color: white;
+  }
+  
+  #photocreds{
+    color: white;
+  }
+  input{
+    text-align: center;
+  }
+  button{
+    text-align: center;
+  }
+  #myCanvas{
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height: 50%;
+  }
+  #colorpicker{
+    display: none;
+  }
+  #confirmGuess{
+    display: none;
+  }
+  #colorlabel{
+    display: none;
+  }
+
+  .post-guess-modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .post-guess-modal-content{
+    height:50%;
+    width:50%;
+    background-color:white;
+    opacity:1;
+    position: relative;
+    padding: 20px;
+  }
+  #close-modal{
+    top: 0;
+    position: absolute;
+    right: 1.6%;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+  }
+  .color-boxes{
+    height:100%;
+    width:50%;
+    float:left;
+  }
+  #guessedColor{
+    height:100%;
+    width:50%;
+    float:left;
+  }
+  #actualColor{
+    width:50%;
+    height:100%;
+    float:right;
+  }
+  .scoreInfo{
+    height:100%;
+    width:50%;
+    float:right;
+  }
