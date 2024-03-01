@@ -64,7 +64,7 @@ function getScore(arrayGuess, arrayAns) {
 async function main() {
   var url = "test.json";
   url =
-    "https://api.unsplash.com/photos/random?client_id=5n1FlvJwoPLW5wqIzsmFghDQ72Q0-qyiqc49dchdKIU";
+    "https://5miy4y33rysgjuz64lrmnm7gi40plika.lambda-url.us-east-2.on.aws/";
   var jsondata = await getJSON(url);
 
   //Setting author's name to add to credits
